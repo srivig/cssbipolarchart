@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cssbipolarchart by srivig</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/cayman.css">
+    <link rel="stylesheet" href="cssBipolarChart.css">
+
+</head>
+
+<body>
+    <section class="page-header">
+        <h1 class="project-name">Cssbipolarchart</h1>
+        <h2 class="project-tagline">Jquery plugin to draw html5/CSS based bipolar bar chart</h2>
+        <a href="https://github.com/srivig/cssbipolarchart" class="btn">View on GitHub</a>
+        <a href="https://github.com/srivig/cssbipolarchart/zipball/master" class="btn">Download .zip</a>
+        <a href="https://github.com/srivig/cssbipolarchart/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+        <h1>
+<a id="cssbipolarchart" class="anchor" href="#cssbipolarchart" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>cssbipolarchart</h1>
+
+        <p>jQuery plugin to draw html5/CSS based bipolar bar chart</p>
+
+        <h3>
+<a id="for-bipolar-chart" class="anchor" href="#for-bipolar-chart" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>For bipolar chart</h3>
+
+        <div class="highlight highlight-source-js"><pre><span class="pl-en">$</span>(<span class="pl-s"><span class="pl-pds">"</span>#example1<span class="pl-pds">"</span></span>).<span class="pl-en">drawCSSBipolarChart</span>({
+          data<span class="pl-k">:</span> sampleData1,
+          bipolar<span class="pl-k">:</span> <span class="pl-c1">true</span>
+})</pre></div>
+
+        <p><strong>Data Format</strong></p>
+
+        <div class="highlight highlight-source-js"><pre>[
+  [<span class="pl-s"><span class="pl-pds">"</span>left label 1<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>right label 1<span class="pl-pds">"</span></span>, <span class="pl-c1">0.3</span>],
+  [<span class="pl-s"><span class="pl-pds">"</span>left label 2<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>right label 2<span class="pl-pds">"</span></span>, <span class="pl-c1">0.4</span>]
+]</pre></div>
+
+<p><strong>Demo</strong></p>
+
+<div id="example1">
+</div>
+
+
+<br><br>
+<hr>
+        <h3>
+<a id="for-bipolar-chart-1" class="anchor" href="#for-bipolar-chart-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>For simple bar chart</h3>
+
+        <div class="highlight highlight-source-js"><pre><span class="pl-en">$</span>(<span class="pl-s"><span class="pl-pds">"</span>#example1<span class="pl-pds">"</span></span>).<span class="pl-en">drawCSSBipolarChart</span>({
+        data<span class="pl-k">:</span> sampleData1,
+        bipolar<span class="pl-k">:</span> <span class="pl-c1">true</span>
+})</pre></div>
+
+        <p><strong>Data Format</strong></p>
+
+        <div class="highlight highlight-source-js"><pre>[
+[<span class="pl-s"><span class="pl-pds">"</span>left label 1<span class="pl-pds">"</span></span>, <span class="pl-c1">0.3</span>],
+[<span class="pl-s"><span class="pl-pds">"</span>left label 2<span class="pl-pds">"</span></span>, <span class="pl-c1">0.4</span>]
+]</pre></div>
+
+<p><strong>Demo</strong></p>
+
+        <div id="example2">
+        </div>
+
+
+
+
+        <!-- scripts -->
+        <script src="http://cdn.jsdelivr.net/jquery/2.1.3/jquery.js"></script>
+        <script src="cssBipolarChart.js"></script>
+
+        <script>
+            var sampleData1 = [
+                ["Conservative and Traditional", "Liberal and Artistic", 0.6625392409386361],
+                ["Impulsive and Spontaneous", "Organized and Hard Working", 0.4771745931633382],
+                ["Contemplative", "Engaged with outside world", 0.06852020443012857],
+                ["Competitive", "Team working and Trusting", 0.5242589938711448],
+                ["Laid back and Relaxed", "Easily Stressed and Emotional", 0.02308082639082526]
+            ]
+
+            var sampleData2 = [
+                ["Psychology", 0.4022950506000479],
+                ["IT", 0.98803218276815504],
+                ["Art", 0.44972130092387308],
+                ["Education", 0.32488360210830012],
+                ["Finance", 0.6332471672578724],
+            ]
+
+            $(document).ready(function() {
+                $("#example1").drawCSSBipolarChart({
+                    data: sampleData1,
+                    bipolar: true
+                })
+
+                $("#example2").drawCSSBipolarChart({
+                    data: sampleData2,
+                    simpleBar: true
+                })
+            })
+        </script>
+
+        <footer class="site-footer">
+            <span class="site-footer-owner"><a href="https://github.com/srivig/cssbipolarchart">Cssbipolarchart</a> is maintained by <a href="https://github.com/srivig">srivig</a>.</span>
+
+            <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+        </footer>
+
+    </section>
+
+</body>
+
+</html>
