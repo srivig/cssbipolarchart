@@ -38,7 +38,7 @@
     margin-left: 5px;
     position: absolute;
     top: 0;
-    width: 60%;
+    width: 65%;
 }
 .chart-horiz-container .chart-horiz li.past .bar {
     background: #aaaaaa;
@@ -47,12 +47,14 @@
     color: #aaaaaa;
 }
 .posValue, .negValue {
+    border-radius: 3px;
     height: 30px;
     width: 50%;
     position: relative;
     color: #666;
 }
 .posValue .bar, .negValue .bar {
+    border-radius: 3px;
     display: inline-block;
 }
 .posValue .number-label {

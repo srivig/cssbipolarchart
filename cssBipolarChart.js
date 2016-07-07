@@ -8,7 +8,7 @@
   $.fn.drawCSSBipolarChart = function(options) {
 
     var defaults = $.extend({
-      colors: {  left: '#61DA7D', right: '#2E6276'},
+      colors: {  left: '#61dac6', right: '#2E6276'},
       simpleBar: false,
       bothSides: false,
       bipolar: false,

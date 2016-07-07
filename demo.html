@@ -24,24 +24,46 @@
 
     <div class="row">
         <div class="column align-self-middle">
-            <h3 class="text-center">Demo 1</h3>
+        <div id="demo1">
+          <div class="how-to">
+            <h5>Demo 1</h5>
             <hr>
-            <p>How to:</p>
-            <pre><code>$("#example1").drawCSSBipolarChart( {data: sampleData1, bipolar: true})</code></pre>
+<pre><code>$("#example1").drawCSSBipolarChart({
+          data: sampleData1,
+          bipolar: true
+})</code></pre>
             <br>
             <p>Data Format:</p>
 <pre><code>[
-  ["left label", "right label", 0.3]
+  ["left label", "right label", 0.3],
+  ["left label", "right label", 0.4]
 ]
 </code></pre>
-<br>
+</div>
+<br><br>
             <div id="example1">
             </div>
-
-            <h3 class="text-center">Example 2</h3>
+</div>
+<br><br><br>
+<div id="demo2">
+  <div class="how-to">
+            <h5>Demo 2</h5>
             <hr>
+<pre><code>$("#example1").drawCSSBipolarChart({
+        data: sampleData1,
+        bipolar: true
+})</code></pre>
+<p>Data Format:</p>
+<pre><code>[
+["left label", 0.3],
+["left label", 0.4]
+]
+</code></pre>
+  </div>
+            <br>
             <div id="example2">
             </div>
+</div>
         </div>
     </div>
 
@@ -62,12 +84,12 @@
 
         var sampleData2 = [
             ["Psychology",0.07022950506000479],
-            ["IT",0.99803218276815504],
-            ["Art",0.07972130092387308],
-            ["Education",0.012488360210830012],
-            ["Finance",0.06332471672578724],
-            ["Law",0.045568831784246575],
-            ["Business",0.06374844656478257],
+            ["IT",0.98803218276815504],
+            ["Art",0.44972130092387308],
+            ["Education",0.32488360210830012],
+            ["Finance",0.6332471672578724],
+            ["Law",0.5568831784246575],
+            ["Business",0.6374844656478257],
             ["Biology",0.06441541647495254],
             ["Nursing",0.023682960105056047],
             ["Engineering",0.2615495598119581],
