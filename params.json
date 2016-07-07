@@ -1,6 +1,6 @@
 {
   "name": "Cssbipolarchart",
   "tagline": "Jquery plugin to draw html5/CSS based bipolar bar chart",
-  "body": "# cssbipolarchart.github.io\r\nJquery plugin to draw html5/CSS based bipolar bar chart\r\n",
+  "body": "# cssbipolarchart\r\njQuery plugin to draw html5/CSS based bipolar bar chart\r\n\r\n### For bipolar chart\r\n\r\n```javascript\r\n$(\"#example1\").drawCSSBipolarChart({\r\n          data: sampleData1,\r\n          bipolar: true\r\n})\r\n```\r\n\r\n**Data Format**\r\n\r\n```javascript\r\n[\r\n  [\"left label 1\", \"right label 1\", 0.3],\r\n  [\"left label 2\", \"right label 2\", 0.4]\r\n]\r\n```\r\n\r\n### For bipolar chart\r\n\r\n```javascript\r\n$(\"#example1\").drawCSSBipolarChart({\r\n        data: sampleData1,\r\n        bipolar: true\r\n})\r\n```\r\n\r\n**Data Format**\r\n\r\n```javascript\r\n[\r\n[\"left label 1\", 0.3],\r\n[\"left label 2\", 0.4]\r\n]\r\n```\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
