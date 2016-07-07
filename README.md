@@ -1,2 +1,38 @@
 # cssbipolarchart
-Jquery plugin to draw html5/CSS based bipolar bar chart
+jQuery plugin to draw html5/CSS based bipolar bar chart
+
+### For bipolar chart
+
+```javascript
+$("#example1").drawCSSBipolarChart({
+          data: sampleData1,
+          bipolar: true
+})
+```
+
+**Data Format**
+
+```javascript
+[
+  ["left label 1", "right label 1", 0.3],
+  ["left label 2", "right label 2", 0.4]
+]
+```
+
+### For bipolar chart
+
+```javascript
+$("#example1").drawCSSBipolarChart({
+        data: sampleData1,
+        bipolar: true
+})
+```
+
+**Data Format**
+
+```javascript
+[
+["left label 1", 0.3],
+["left label 2", 0.4]
+]
+```
