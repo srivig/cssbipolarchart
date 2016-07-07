@@ -1,6 +1,8 @@
 # cssbipolarchart
 jQuery plugin to draw html5/CSS based bipolar bar chart
 
+[Demo](https://srivig.github.io/cssbipolarchart/)
+
 ### For bipolar chart
 
 ```javascript
@@ -39,4 +41,4 @@ $("#example1").drawCSSBipolarChart({
 
 TODO:
 * Add jQuery manifest info
-* Cross browser tests 
+* Cross browser tests
