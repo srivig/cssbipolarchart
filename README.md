@@ -19,7 +19,7 @@ $("#example1").drawCSSBipolarChart({
 ]
 ```
 
-### For bipolar chart
+### For simple bar chart
 
 ```javascript
 $("#example1").drawCSSBipolarChart({
@@ -36,3 +36,7 @@ $("#example1").drawCSSBipolarChart({
 ["left label 2", 0.4]
 ]
 ```
+
+TODO:
+* Add jQuery manifest info
+* Cross browser tests 

@@ -35,10 +35,10 @@
 }
 .chart-horiz-container .chart-horiz li .number-label {
     font-weight: normal;
-    margin-left: 5px;
     position: absolute;
     top: 0;
     width: 65%;
+    margin: 0px 15px 0px 15px;
 }
 .chart-horiz-container .chart-horiz li.past .bar {
     background: #aaaaaa;
